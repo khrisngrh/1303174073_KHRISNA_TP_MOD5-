@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+	<body>
+
+	<h2>Data Diri 1303174073</h2>
+
+	<p id="1"></p>
+	<p id="2"></p>
+	<p id="3"></p>
+	<p id="4"></p>
+	<p id="5"></p>
+	<p id="6"></p>
+
+	<script>
+		var typejson, M;
+		typejson = {
+	 		 "Home"    	:"- Khrisna Adi Nugraha, 1303174073, IT-41-02.",
+	 		 "About"   	:"- Dilahirkan di Karanganyar, 21 tahun yang lalu dalam keadaan sehat walafiat.",
+	 		 "Hobbies"     :[ "- Bermain tic tac toe", " meminum cokelat panas", " menyusun puzzle." ],
+	 		 "Skills"      :[ "- Basket", " futsal", " voli."],
+	 		 "Education"   :[ "- SDN 02", " SPENSAKRA", " SMANKRAP." ],
+			 "Experience"  :[ "- Juara POPDA", " runner up 3x3", " juara umum lomba agustusan." ],
+		};
+		M = typejson.Home;
+			document.getElementById("1").innerHTML = M;
+		M = typejson.About;
+			document.getElementById("2").innerHTML = M;
+		M = typejson.Hobbies;
+			document.getElementById("3").innerHTML = M;
+		M = typejson.Skills;
+			document.getElementById("4").innerHTML = M;
+		M = typejson.Education;
+			document.getElementById("5").innerHTML = M;
+		M = typejson.Experience;
+			document.getElementById("6").innerHTML = M;
+	</script>
+	</body>
+</html>
+
+
